@@ -1,0 +1,12 @@
+cat > .gitignore << 'EOF'
+myvenv/
+myenv/
+.venv/
+.ipynb_checkpoints/
+__pycache__/
+.DS_Store
+data/events.csv
+data/item_properties_part1.csv
+data/item_properties_part2.csv
+data/category_tree.csv
+EOF
